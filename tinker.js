@@ -14,3 +14,11 @@ var catSays = function(max) {
   
   // pass in catSays as a callback function
   helloCat(catSays);
+
+  const seasons = ["spring", "summer", "fall"];
+const length = seasons.length;
+
+seasons.push("winter");
+
+console.log(length);
+console.log(seasons.length);
